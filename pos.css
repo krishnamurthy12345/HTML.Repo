@@ -1,0 +1,46 @@
+
+.para{
+    background-color:white;
+    text-align: left;
+    max-height: 500px;
+}
+img {
+    float:right;
+    height: 100px;
+    width: 100px;
+    margin-top: -60px;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+p{
+    text-align:justify;
+    text-size-adjust: 15px;
+    padding-right: 10px;
+}
+.pic2 img{
+    padding: 100px;
+    padding-right: 100%;
+    height: 150px;
+    width: 100px;
+    position: fixed;
+}
+.history{
+    background-color: white;
+}
+body{
+    background-color: pink;
+}
+.history img{
+    padding-top: 22px;
+  
+}
+.videos{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+*{
+    text-decoration: none;
+}
