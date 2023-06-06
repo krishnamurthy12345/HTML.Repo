@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(208, 79, 79);
+    opacity: 0.2;
+}
+.image{
+    background-image: url('pink.avif');
+    height:60vh;
+    width:30vw;
+    margin-top: 130px;
+    margin-left: 350px;
+    border-radius: 5px;
+    box-shadow:rgb(14, 13, 13);
+}
+.better{
+    float: right;
+    margin-top: -480px;
+    margin-right: 300px;
+    background-color: white;
+    z-index: 5;
+    width: 450px;
+    height: 500px;
+    margin-left: 30px;
+}
+.awesome{
+    color: orange;
+    margin-left: 15px;
+}
+.dollar{
+    margin-left: 300px;
+    margin-top: -10px;
+}
+.violet{
+    color: violet;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
+.ab{
+    border: none;
+}
+.ac{
+    border: none;
+}
+.ad{
+    border-radius: 30px;
+}
+.ae{
+    border: none;
+}
+.common{
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-top:70px;
+    margin-left: 100px;
+}
+.size{
+    margin-left: 10px;
+}
+.font{
+    margin-left: 15px;
+}
+.men{
+    margin-left: 15px;
+}
+.wishlist{
+    margin-left: 150px;
+}

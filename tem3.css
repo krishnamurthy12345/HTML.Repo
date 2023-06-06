@@ -1,0 +1,23 @@
+h1{
+    background-color: blueviolet;
+    text-align: center;
+    height: 70px;
+}
+.aa{
+    width: 500px;
+    background-color: aqua;
+    margin-left:0px;
+    margin-right: 30px;
+}
+.bb{
+    width: 500px;
+    background-color: aqua;
+    margin-right: 30px;
+}
+.cc{
+    width: 500px;
+    background-color: aqua;
+}
+.dd{
+    display: flex;
+}

@@ -1,0 +1,32 @@
+body{
+    background-image:url('daa.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pp{
+    display: inline;
+    float: right;
+    margin-top: -40px;
+    word-spacing: 10px;   
+}
+.aa:hover{
+    color:greenyellow;
+    text-decoration: underline;
+}
+*{
+    color: white;
+    text-decoration: none;
+}
+.papa{
+    margin-top: 150px;
+    width:700px;
+}
+h3{
+    color: greenyellow;
+}
+button{
+    border-radius: 20px;
+    background-color: greenyellow;
+    height: 30px;
+    width: 150px;
+}

@@ -1,0 +1,35 @@
+
+.aa{
+    background-color: green;
+    height:500px;
+    width: 800px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.bb{
+    background-color: blueviolet;
+    height: 500px;
+    width: 800px;
+    margin-right: 20px;
+}
+.cc{
+    background-color: burlywood;
+    height: 500px;
+    width: 800px;
+    margin-right: 10px;
+}
+.dd{
+    display: flex;
+    background-color: blue;
+    height: 70vh;
+    width: 80vw;
+}
+.ee{
+    background-color:rgb(63, 147, 63)
+}
+.ff{
+    background-color: rgb(128, 84, 169);
+}
+,gg{
+    background-color: rgb(130, 104, 70);
+}

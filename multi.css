@@ -1,0 +1,51 @@
+body{
+    background-color: gray;
+}
+.container{
+    height: 80vh;
+    width: 80vw;
+    margin-left: 100px;
+    background-color: white;
+}
+.world{
+    text-align: center;
+}
+.red{
+    color: red;
+}
+ul{
+    list-style-type: style type none;
+    padding: 10px;
+    background-color: red;
+}
+ul li{
+    color:white;
+    display: inline-block;
+    margin-left: 70px;
+}
+.para{
+    height:25vh;
+    width:20vw;
+    background-color: grey;
+    margin-left: 50px;
+}
+.news{
+    background-color: red;
+}
+.main{
+    margin-left: 50px;
+    margin-top: -180px;
+}
+.line{
+    column-span:all;
+    margin-left: 700px;
+    margin-top: -150px;
+}
+.brake{
+    column-count: 2;
+    margin-left:600px;
+    width: 500px;
+}
+.graph{
+    column-count:4;
+}
