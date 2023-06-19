@@ -1,0 +1,36 @@
+.bg1{
+    background-color:aquamarine;
+    height: 150px;
+    padding: 20px;
+}
+.colo{
+    background-color:#3ebd3e;
+    height:500pxpx;
+    width:300px;
+    border-radius: 20px;
+}
+.colo1{
+    background-color: #e668a7;
+    height:500pxpx;
+    width:300px;
+    border-radius: 20px;
+}
+.colo2{
+    background-color: #a368fc;
+    height:500pxpx;
+    width:300px;
+    border-radius: 20px;
+}
+.colo4{
+    background-color: #e12d3919;
+    height: 150px;  
+}
+.head{
+    padding: 20px;
+}
+.topic{
+    padding: 20px;
+}
+/* .btn{
+    margin-left: 250px;
+} */

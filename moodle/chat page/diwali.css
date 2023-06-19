@@ -1,0 +1,37 @@
+.bodies{
+    background-color:#616e7c;
+    height:99%;
+    width: 100.75%;
+}
+.diwali1{
+    width:100px;
+    height:100px;
+}
+.diwali2{
+    width:100px;
+    height:100px;
+}
+.diwali3{
+    width:100px;
+    height:100px;
+}
+.diwali4{
+    width:100px;
+    height:100px;
+}
+.city{
+    height:33vh;
+    width:99%;
+    
+} 
+.car{
+    border-radius: 10px;
+    margin:10px;
+}
+.your{
+    width: 100px;
+
+}
+.photo{
+    height:250px;
+}

@@ -1,0 +1,26 @@
+body{
+    background-image: url('favou.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head{
+    color: white;
+    margin:20px;
+}
+.fav1{
+    color: black;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.fav2{
+    color: black;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.fav3{
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
