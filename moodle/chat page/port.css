@@ -8,17 +8,12 @@
 }
 
 .navbar {
-    width: 100%;
+    width: 99.5%;
     position: sticky !important;
     left: 0;
     right: 0;
     box-shadow: 0px 0px 5px 8px rgb(19, 8, 66);
     z-index: 10;
-}
-
-.navbar-brand {
-    font-weight: 700;
-    background-image: url('logo.png');
 }
 
 .nav-link {
@@ -44,68 +39,41 @@ section {
 /* Home Section */
 
 #home {
-    width: 100%;
-    height:100vh;
+    width: 99.5%;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url();
+        url(kk.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position:right;
+    background-position:center;
     display: flex;
     align-items: left;
     color: yellow;
     flex-direction: column;
 }
-.img{
 
-    background: none;
-    width: 450px;
-    height: 600px;
-    position: absolute;
-    top: 100px;
-    left: 1050px;
+.am{
+    margin-left:100px;
+    margin-top: 300px;
+    font-size: 4em;
+}
+.web{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 4em;
+}
+span{
+    color:whitesmoke;
+}
+.am:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+}
+.web:hover{
+    transform: skewX(-8deg);
+    transition: 0.8s;
+
 }
 
-#home p {
-    position: absolute;
-    top: 40%;
-    font-size: 80px;
-    opacity: 0;
-    animation: text 3s ease-in;
-}
-
-#home span {
-    color: rgb(238, 33, 238);
-}
-
-#home p:nth-child(1) {
-    animation-delay: 0s;
-}
-
-#home p:nth-child(2) {
-    animation-delay: 3s;
-}
-
-/* #home p:nth-child(3) {
-    animation-delay: 6s;
-}
-
-#home p:nth-child(4) {
-    animation-delay: 9s;
-}
-#home p:nth-child(5) {
-    animation-delay: 12s;
-}  */
-
-/* @keyframes text {
-    50% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
-} */
 
 @media screen and (max-width: 576px) {
     #home p {
@@ -125,7 +93,6 @@ section {
 .about_bg {
     width: 700px;
     height: 300px;
-    background-color:;
 }
 
 .about_bg h2 {
@@ -161,125 +128,123 @@ section {
     }
 }
 
-/* Skill Section */
-/* #skill {
-    background-color: antiquewhite;
+/* ---Skill section---- */ 
+#skills{
+    background-color: rgb(191, 157, 239);
+    width: 99.5%;
 }
 
-.skill_head {
-    padding-top: 70px;
-}
-
-.progress {
-    box-shadow: 0px 0px 5px 5px rgb(210, 186, 186);
-}
-
-label {
-    font-size: 25px;
-    font-weight: 400;
-}
-
-h1 {
-    font-size: 35px;
-    font-weight: 700;
-} */
-
-/* skills */
-#skill {
-    background-color: antiquewhite;
-}
-
-.skill_head {
-    padding-top: 70px;
-}
-.skills{
-    margin: 10px;
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(55, 255, 0, 0.409));
-    padding: 50px;
-    display: flex;
-    flex-direction: row;
-}
-.skills_text{
-    color: rgb(10, 10, 8);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.html{
-    margin-left: 100px;
-    background-color: rgb(190, 206, 13);
-    width: 300px;
-    height: 400px;
+.skill1{
+    font-size: 2em;
     text-align: center;
+}
+.skills1{
     border-radius: 20px;
-    box-shadow: 2px 3px 2px black;
-}
-.html_icon{
-    margin-top: 20px;
-    font-size: 50px;
-}
-.html:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-    background-color: rgb(251, 255, 12);
-}
-.css{
-    margin-left: 100px;
-    background-color: rgb(190, 206, 13);
-    width: 300px;
-    height: 400px;
+    color: brown;
     text-align: center;
-    border-radius: 20px;
-    box-shadow: 2px 3px 2px black;
+    background-color: rgb(191, 197, 131);
 }
-.css_icon{
-    margin-top: 20px;
-    font-size: 50px;
-}
-.css:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-    background-color:yellow;
-}
-.bootstrap{
-    margin-left: 100px;
-    background-color: rgb(190, 206, 13);
-    width: 300px;
-    height: 400px;
+.skill2{
     text-align: center;
+    font-size: 2em;
+}
+.skills2{
     border-radius: 20px;
-    box-shadow: 2px 3px 2px black;
+    color: brown;
+    text-align: center;
+    background-color: rgb(191, 197, 131);
 }
-.bootstrap_icon{
-    margin-top: 20px;
-    font-size: 50px;
+.skill3{
+    text-align: center;
+    font-size: 2em;
+    z-index: 1;
 }
-.bootstrap:hover{
+.skills3{
+    border-radius: 20px;
+    color: brown;
+    text-align: center;
+    background-color: rgb(191, 197, 131);
+}
+
+.align{
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 30px;
+    
+}
+.align:hover{
+    background-color: aquamarine;
     transform: scale(1.1);
-    transition: 0.5s;
-    background-color: rgb(243, 255, 14);
+    transition: .5s;
+    z-index: 1;
 }
+
 
 /* Certificate Section */
 
 #certificate_main {
-    background-color: rgb(117, 117, 164);
-    width: 100%;
-    height: 100vh;
-
+    background-color: rgb(237, 175, 199);
+    width: 99.5%;
 }
-
+.certificate1{
+    margin-left: 30px;
+}
+.certificate1:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    z-index: 1;
+}
+.certificate2{
+    margin-left: 30px;
+}
+.certificate2:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    z-index: 1;
+}
+.certificate3{
+    margin-left: 30px;
+}
+.certificate3:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    z-index: 1;
+}
+.certificate4{
+    margin-left: 30px;
+}
+.certificate4:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    z-index: 1;
+}
+.certificate5{
+    margin-left: 30px;
+}
+.certificate5:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    z-index: 1;
+}
+.certificate6{
+    margin-left: 30px;
+}
+.certificate6:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    z-index: 1;
+}
 .row {
-    width: 100%;
-    padding-left: 220px;
-    padding-top: 50px;
-
+    width: 99%;
+    
 }
 
 /* Contact Section */
 #contact {
     background-color: #ababab;
-    height: 100vh;
+    height: 150vh;
 }
-
 .container {
     padding-top: 120px;
 }
@@ -321,13 +286,9 @@ h1 {
     background: #dba12d;
 }
 
-.contact-right form {
-    width: 100%;
-}
-
 form input,
 form textarea {
-    width: 100%;
+    width: 99.5%;
     border: 0;
     outline: none;
     background: #262626;
@@ -342,21 +303,4 @@ form .btn2 {
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
-}
-
-.copyright {
-    font-size: 20px;
-    font-weight: 300;
-    width: 100%;
-
-    text-align: center;
-    padding: 20px 0;
-    background: #0abb4d;
-    font-weight: 300;
-    margin-top: 30px;
-    margin-bottom: 0;
-}
-
-.copyright i {
-    color: #420b86;
 }
