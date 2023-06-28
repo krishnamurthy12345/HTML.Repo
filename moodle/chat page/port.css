@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Heebo", sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    position: sticky !important;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 5px 8px rgb(19, 8, 66);
+    z-index: 10;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    background-image: url('logo.png');
+}
+
+.nav-link {
+    color: white !important;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+    background-color: greenyellow;
+    border-bottom: 2px solid red;
+    transform: scale(1, 1);
+}
+
+.link {
+    margin-right: 20px;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Home Section */
+
+#home {
+    width: 100%;
+    height:100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url();
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:right;
+    display: flex;
+    align-items: left;
+    color: yellow;
+    flex-direction: column;
+}
+.img{
+
+    background: none;
+    width: 450px;
+    height: 600px;
+    position: absolute;
+    top: 100px;
+    left: 1050px;
+}
+
+#home p {
+    position: absolute;
+    top: 40%;
+    font-size: 80px;
+    opacity: 0;
+    animation: text 3s ease-in;
+}
+
+#home span {
+    color: rgb(238, 33, 238);
+}
+
+#home p:nth-child(1) {
+    animation-delay: 0s;
+}
+
+#home p:nth-child(2) {
+    animation-delay: 3s;
+}
+
+/* #home p:nth-child(3) {
+    animation-delay: 6s;
+}
+
+#home p:nth-child(4) {
+    animation-delay: 9s;
+}
+#home p:nth-child(5) {
+    animation-delay: 12s;
+}  */
+
+/* @keyframes text {
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+} */
+
+@media screen and (max-width: 576px) {
+    #home p {
+        font-size: 30px;
+    }
+}
+
+/* About Section */
+
+#about {
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_bg {
+    width: 700px;
+    height: 300px;
+    background-color:;
+}
+
+.about_bg h2 {
+    color: darkred;
+}
+
+.about_bg p {
+    color: rgb(67, 19, 170);
+}
+
+.about_bg:hover {
+    width: 800px;
+    height: 400px;
+    transform: scaleX(1);
+    transition: 1s;
+    box-shadow: 0px 0px 22px 18px rgb(75, 204, 233);
+}
+
+.about_bg:hover .about_content {
+    position: absolute;
+    top: 12%;
+    width: 70%;
+    left: 10%;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
+    #about {
+        background-color: rgb(176, 103, 26);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Skill Section */
+/* #skill {
+    background-color: antiquewhite;
+}
+
+.skill_head {
+    padding-top: 70px;
+}
+
+.progress {
+    box-shadow: 0px 0px 5px 5px rgb(210, 186, 186);
+}
+
+label {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 700;
+} */
+
+/* skills */
+#skill {
+    background-color: antiquewhite;
+}
+
+.skill_head {
+    padding-top: 70px;
+}
+.skills{
+    margin: 10px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(55, 255, 0, 0.409));
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.skills_text{
+    color: rgb(10, 10, 8);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.html{
+    margin-left: 100px;
+    background-color: rgb(190, 206, 13);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 3px 2px black;
+}
+.html_icon{
+    margin-top: 20px;
+    font-size: 50px;
+}
+.html:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: rgb(251, 255, 12);
+}
+.css{
+    margin-left: 100px;
+    background-color: rgb(190, 206, 13);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 3px 2px black;
+}
+.css_icon{
+    margin-top: 20px;
+    font-size: 50px;
+}
+.css:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color:yellow;
+}
+.bootstrap{
+    margin-left: 100px;
+    background-color: rgb(190, 206, 13);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 3px 2px black;
+}
+.bootstrap_icon{
+    margin-top: 20px;
+    font-size: 50px;
+}
+.bootstrap:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: rgb(243, 255, 14);
+}
+
+/* Certificate Section */
+
+#certificate_main {
+    background-color: rgb(117, 117, 164);
+    width: 100%;
+    height: 100vh;
+
+}
+
+.row {
+    width: 100%;
+    padding-left: 220px;
+    padding-top: 50px;
+
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ababab;
+    height: 100vh;
+}
+
+.container {
+    padding-top: 120px;
+}
+
+.contact-left {
+    flex-basis: 35%;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.contact-left p i {
+    color: #d7143b;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #1db120;
+    display: inline-block;
+    transform: 0.5s;
+}
+
+.social-icons a:hover {
+    color: #8418e2;
+    transform: translateY(-5px);
+}
+
+.btn.btn2 {
+    display: inline-block;
+    background: #dba12d;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    border-radius: 6px;
+}
+
+form .btn2 {
+    padding: 14px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copyright {
+    font-size: 20px;
+    font-weight: 300;
+    width: 100%;
+
+    text-align: center;
+    padding: 20px 0;
+    background: #0abb4d;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.copyright i {
+    color: #420b86;
+}

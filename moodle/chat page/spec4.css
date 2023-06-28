@@ -1,0 +1,9 @@
+body{
+    background-color: lightgrey;
+}
+.blue-text{
+    color: blue;
+}
+#description{
+    font-size: 20px;
+}

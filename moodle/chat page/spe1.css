@@ -7,4 +7,10 @@
 .email{
     background-color: aqua;
     color: blue;
+    width: 50%;
+}
+.work{
+    background-color: black;
+    color: gainsboro;
+    width: 50%;
 }

@@ -1,0 +1,28 @@
+.one{
+    margin-top: 250px;
+    color: white;
+}
+.two{
+    margin-top: 250px;
+    color: white;
+}
+.btn{
+    margin-top: 20px;
+    margin-right: 10px;
+    color: white;
+    border-color: white;
+}
+.btn1{
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+}
+.btn2{
+    color:white;
+    border-color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+}
