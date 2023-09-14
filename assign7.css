@@ -2,6 +2,7 @@ body{
     background: -webkit-linear-gradient(to right,#155799,#159957);
     background: linear-gradient(#155799,#159957);
     color: whitesmoke;
+    /* background-repeat: no-repeat; */
 }
 h1{
     text-align: center;
@@ -17,7 +18,7 @@ form{
     border: 1px solid rgba(255,255,255,0.125);
     padding: 20px,25px;
 }
-input[type=text],inpyt[type=password]{
+input[type=text],input[type=password]{
     width: 100%;
     margin: 10px 0;
     border-radius: 5px;

@@ -1,11 +1,16 @@
 body{
     background-color: rgb(208, 79, 79);
-    opacity: 0.2;
+    opacity: 0.7;
 }
 .image{
-    background-image: url('pink.avif');
+    background-image: url('https://th.bing.com/th/id/OIP.3fLWKjgQKwh2TRAj6cGe6gHaHa?pid=ImgDet&rs=1');
+    background-repeat: no-repeat;
     height:60vh;
-    width:30vw;
+    /* width:30vw; */
+    /* margin: 0,auto;
+    text-align: center;
+    align-items: center;
+    justify-items: center; */
     margin-top: 130px;
     margin-left: 350px;
     border-radius: 5px;

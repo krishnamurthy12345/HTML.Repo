@@ -20,9 +20,10 @@
 }
 .dd{
     display: flex;
+    margin: 0,auto;
     background-color: blue;
-    height: 70vh;
-    width: 80vw;
+    /* height: 70vh; */
+    
 }
 .ee{
     background-color:rgb(63, 147, 63)
@@ -30,6 +31,6 @@
 .ff{
     background-color: rgb(128, 84, 169);
 }
-,gg{
+.gg{
     background-color: rgb(130, 104, 70);
 }

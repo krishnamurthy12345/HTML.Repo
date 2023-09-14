@@ -1,6 +1,6 @@
 .bluebox{
     background-color: blue;
-    height: 200px;
+    /* height: 200px; */
     width: 700px;
     margin-top: 20px;
     position: relative;
@@ -8,7 +8,7 @@
 }
 .yellowbox{
     background-color: yellow;
-    height: 200px;
+    /* height: 200px; */
     width: 700px;
     position:relative;
     top: -50px;
@@ -17,15 +17,15 @@
 }
 .greenbox{
     background-color: green;
-    height: 200px;
+    /* height: 200px; */
     width: 700px;
     position: relative;
     top: -100px;
     left: 50px;
     z-index:10;
 }
-body{
+/* body{
     background-image: url('bbcolor.avif');
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
