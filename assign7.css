@@ -2,7 +2,7 @@ body{
     background: -webkit-linear-gradient(to right,#155799,#159957);
     background: linear-gradient(#155799,#159957);
     color: whitesmoke;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 }
 h1{
     text-align: center;

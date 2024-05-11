@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient(purple,pink);
+    background-image:linear-gradient(to top,purple,pink);
     background-repeat: no-repeat;
     height: 78vh;
 
@@ -8,17 +8,11 @@ body{
     background-color:aquamarine;
     margin: auto;
     margin-top: 150px;
-    max-width: 500px;
-    /* height: 500px; */
-    /* width: 35rem; */
-    /* margin-left: 450px; */
-    
+    max-width: 500px;   
 }
 .form{
     margin: 0,auto;
     padding: 70px;
-    /* margin-left: 80px; */
-    /* margin-right: 100px; */
 }
 form{
     background-color: white;
@@ -35,9 +29,6 @@ button{
     color:white;
     background-color: aqua;
     border: none;
-    /* width:150px; */
-    /* height:30px; */
-    /* border-color: aqua; */
 }
 /* input[type="text"]{
     background-color: black;

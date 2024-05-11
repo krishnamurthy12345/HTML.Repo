@@ -79,6 +79,9 @@ span{
     #home p {
         font-size: 30px;
     }
+    .nav-link:hover{
+        background-color: #d7143b;
+    }
 }
 
 /* About Section */
